@@ -241,6 +241,9 @@ data = m.np(df2)
 kmeans_output = a.kmeans(data)
 kmeans_output
 
+#if the output is the following Error: 'NoneType' object has no attribute 'split'
+#try upgrading threadpoolctl ("pip3 install threadpoolctl --upgrade")
+
 
 # In[ ]:
 
